@@ -1,0 +1,236 @@
+#views .view {
+  display: block;
+  padding: 25px;
+  margin: 25px;
+  font-size: 12px;
+}
+
+  #views .view .badge {
+    font-size: 1em;
+  }
+
+  @media (min-width: 480px) {#views .view {
+    font-size: 24px
+}
+  }
+
+  @media (min-width: 768px) {#views .view {
+  font-size: 56px
+}
+}
+
+.view #tiles {
+    width: 100%;
+  }
+
+.view #tiles .tiles-wrapper {
+      margin: 0.25rem;
+    }
+
+.view #tiles .tile {
+      color: #fff;
+      padding: 10px;
+      display: inline-block;
+      float: left;
+      position: relative;
+    }
+
+.view #tiles .tile.width-1 {
+        width: 100%;
+      }
+
+.view #tiles .tile.width-2 {
+        width: 50%;
+      }
+
+.view #tiles .tile.width-3 {
+        width: 33.3333%;
+      }
+
+.view #tiles .tile.width-4 {
+        width: 25%;
+      }
+
+.view #tiles .tile.width-5 {
+        width: 20%;
+      }
+
+.view #tiles .tile.width-6 {
+        width: 16.6666%;
+      }
+
+.view #tiles .tile.width-7 {
+        width: 14.2856%;
+      }
+
+.view #tiles .tile.width-8 {
+        width: 12.5%;
+      }
+
+.view #tiles .tile.width-9 {
+        width: 11.1110%;
+      }
+
+.view #tiles .tile.width-10 {
+        width: 10%;
+      }
+
+.view #tiles .tile.width-11 {
+        width: 9.0908%;
+      }
+
+.view #tiles .tile.width-12 {
+        width: 8.3332%;
+      }
+
+.view #tiles .tile.width-13 {
+        width: 7.6922%;
+      }
+
+.view #tiles .tile.width-14 {
+        width: 8.3332%;
+      }
+
+.view #tiles .tile.width-15 {
+        width: 7.1427%;
+      }
+
+.view #tiles .tile.width-16 {
+        width: 6.25%;
+      }
+
+.view #tiles .tile.height-1 {
+        height: 185px;
+      }
+
+.view #tiles .tile.height-2 {
+        height: 270px;
+      }
+
+.view #tiles .tile.height-3 {
+        height: 355px;
+      }
+
+.view #tiles .tile.height-4 {
+        height: 440px;
+      }
+
+.view #tiles .tile.height-5 {
+        height: 525px;
+      }
+
+.view #tiles .tile.height-6 {
+        height: 610px;
+      }
+
+.view #tiles .tile.height-7 {
+        height: 695px;
+      }
+
+.view #tiles .tile.height-8 {
+        height: 780px;
+      }
+
+.view #tiles .tile.height-9 {
+        height: 865px;
+      }
+
+.view #tiles .tile.height-10 {
+        height: 950px;
+      }
+
+.view #tiles .tile .tile-title {
+        display: block;
+        font-size: 30px;
+        text-align: center;
+        white-space: nowrap;
+        -ms-text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+
+.view #tiles .tile .tile-title .tile-status-icon {
+          display: none;
+        }
+
+.view #tiles .tile.success {
+        background: #499649;
+      }
+
+.view #tiles .tile.error, .view #tiles .tile.failure {
+        background: #b2423f;
+      }
+
+.view #tiles .tile .tile-builds .tile-build {
+        box-shadow: 3px 3px 10px 3px rgba(71, 71, 71, 0.5);
+        border-radius: 15px;
+      }
+
+.view #tiles .tile .tile-builds .tile-build .progress {
+          height: 70px;
+          background-color: #888;
+        }
+
+.view #tiles .tile .tile-builds .tile-build .progress .progress-bar {
+            text-align: left;
+            padding-left: 5px;
+            padding-top: 3px;
+          }
+
+.view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-success {
+              background-color: #5cb85c;
+              color: #eee;
+            }
+
+.view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-success .remaining .build-number.label-success, .view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-success .execution-timestamp .build-number.label-success {
+                  background-color: #76d776;
+                }
+
+.view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-success:hover {
+                background-color: #76d776;
+              }
+
+.view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-success:hover .remaining .build-number.label-success, .view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-success:hover .execution-timestamp .build-number.label-success {
+                    background-color: #5cb85c;
+                  }
+
+.view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-danger {
+              background-color: #d9534f;
+              color: #eee;
+            }
+
+.view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-danger .remaining .build-number.label-danger, .view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-danger .execution-timestamp .build-number.label-danger {
+                  background-color: #fa5652;
+                }
+
+.view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-danger:hover {
+                background-color: #fa5652;
+              }
+
+.view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-danger:hover .remaining .build-number.label-danger, .view #tiles .tile .tile-builds .tile-build .progress .progress-bar.progress-bar-danger:hover .execution-timestamp .build-number.label-danger {
+                    background-color: #d9534f;
+                  }
+
+.view #tiles .tile .tile-builds .tile-build .progress .branch {
+            font-size: 40px;
+            line-height: 45px;
+            display: block;
+            white-space: nowrap;
+            overflow: visible;
+          }
+
+.view #tiles .tile .tile-builds .tile-build .progress .remaining,
+          .view #tiles .tile .tile-builds .tile-build .progress .execution-timestamp {
+            display: block;
+            font-size: 15px;
+            white-space: nowrap;
+            overflow: visible;
+          }
+
+.view #tiles .tile .tile-builds .tile-build .progress .remaining .build-execution-time,
+            .view #tiles .tile .tile-builds .tile-build .progress .remaining .build-age,
+            .view #tiles .tile .tile-builds .tile-build .progress .execution-timestamp .build-execution-time,
+            .view #tiles .tile .tile-builds .tile-build .progress .execution-timestamp .build-age {
+              font-size: 0.75em;
+            }
